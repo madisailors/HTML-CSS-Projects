@@ -85,7 +85,7 @@ animation-timing-function: cubic-bezier(2.5, .2, .3, 2);
 @keyframes race {
     0%, 100% {
         transform: translateY(0px);
-        background-image: url(./icons2.png)
+        background-image: url(./icons2.png);
     }
-    50% { tranform: translateY(0 px)}
+    50% { transform: translateY(330px);}
 }
