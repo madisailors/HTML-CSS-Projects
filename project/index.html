@@ -3,14 +3,16 @@
 	<head>
 		<meta charset="utf-8">
 		<title>The Cocktail Corner</title>
-		<link rel="stylesheet" type="text/css" href="../project/css/photo_style.css"
+		<link rel="stylesheet" type="text/css" href="./css/genericstyles.css">
+		<link rel="stylesheet" type="text/css" href="./css/anmimations.css">
+		<link rel="stylesheet" type="text/css" href="../project/css/photo_style.css">
 	</head>
 	<body>
 		
 	<!-- NAV -->
-	<div>
-		<div>
-			<ul>
+	<div class="wrap">
+		<div class="menu-container">
+			<ul class="menu">
 				<a href="#home" id="link"><li>HOME</li></a>
 				<a href="#recipes"><li>RECIPES</li></a>
 				<a href="#contact"><li>RESERVATIONS</li></a>
@@ -21,19 +23,19 @@
 
 	<!-- HOME -->
 	<div id="home">
-		<div>
-			<div>
-				<span>The Cocktail Corner</span>
+		<div class="container">
+			<div class="text-center">
+				<span class="head-main">The Cocktail Corner</span>
 			</div>
 		</div>
 	</div>
 	<!-- END HOME -->
 	
 	<!-- RECIPES -->
-	<section>
-		<div id="recipes">
+	<section id="recipes">
+		<div class="container">
 			<h1>RECIPES</h1>
-			<div>
+			<div class="flex-container">
 				<!-- PHOTO CONTAINER 1 -->
 				<div class="photo-container">
 					<div class="photo">
@@ -46,88 +48,88 @@
 				</div>
 				<!-- END PHOTO CONTAINER 1-->
 				<!-- PHOTO CONTAINER 2 -->
-				<div>
-					<div>
+				<div class="photo-container">
+					<div class="photo">
 						<img src="./images/thumb/thumbnail_2.jpg" alt="Cosmopolitan">
-						<div>
-							<h3>Click to Enlarge</h3>
+						<div class="photo-overlay">
+							<h3 class="white-head">Click to Enlarge</h3>
 							<p>We have tastings & classes available 7 days a week! Book with us today!</p>
 						</div>
 					</div>
 				</div>
 				<!-- END PHOTO CONTAINER 2-->
 				<!-- PHOTO CONTAINER 3 -->
-				<div>
-					<div>
+				<div class="photo-container">
+					<div class="photo">
 						<img src="./images/thumb/thumbnail_3.jpg" alt="Old Fashioned">
-						<div>
-							<h3>Click to Enlarge</h3>
+						<div class="photo-overlay">
+							<h3 class="white-head">Click to Enlarge</h3>
 							<p>We have tastings & classes available 7 days a week! Book with us today!</p>
 						</div>
 					</div>
 				</div>
 				<!-- END PHOTO CONTAINER 3-->
 				<!-- PHOTO CONTAINER 4 -->
-				<div>
-					<div>
+				<div class="photo-container">
+					<div class="photo">
 						<img src="./images/thumb/thumbnail_4.jpg" alt="Whiskey Sour">
-						<div>
-							<h3>Click to Enlarge</h3>
+						<div class="photo-overlay">
+							<h3 class="white-head">Click to Enlarge</h3>
 							<p>We have tastings & classes available 7 days a week! Book with us today!</p>
 						</div>
 					</div>
 				</div>
 				<!-- END PHOTO CONTAINER 4-->
 				<!-- PHOTO CONTAINER 5 -->
-				<div>
-					<div>
+				<div class="photo-container">
+					<div class="photo">
 						<img src="./images/thumb/thumbnail_5.jpg" alt="Gin martini">
-						<div>
-							<h3>Click to Enlarge</h3>
+						<div class="photo-overlay">
+							<h3 class="white-head">Click to Enlarge</h3>
 							<p>We have tastings & classes available 7 days a week! Book with us today!</p>
 						</div>
 					</div>
 				</div>
 				<!-- END PHOTO CONTAINER 5-->
 				<!-- PHOTO CONTAINER 6 -->
-				<div>
-					<div>
+				<div class="photo-container">
+					<div class="photo">
 						<img src="./images/thumb/thumbnail_6.jpg" alt="Manhattan">
-						<div>
-							<h3>Click to Enlarge</h3>
+						<div class="photo-overlay">
+							<h3 class="white-head">Click to Enlarge</h3>
 							<p>We have tastings & classes available 7 days a week! Book with us today!</p>
 						</div>
 					</div>
 				</div>
 				<!-- END PHOTO CONTAINER 6-->
 				<!-- PHOTO CONTAINER 7 -->
-				<div>
-					<div>
+				<div class="photo-container">
+					<div class="photo">
 						<img src="./images/thumb/thumbnail_7.jpg" alt="Mojito">
-						<div>
-							<h3>Click to Enlarge</h3>
+						<div class="photo-overlay">
+							<h3 class="white-head">Click to Enlarge</h3>
 							<p>We have tastings & classes available 7 days a week! Book with us today!</p>
 						</div>
 					</div>
 				</div>
 				<!-- END PHOTO CONTAINER 7-->
 				<!-- PHOTO CONTAINER 8 -->
-				<div>
-					<div>
+				<div class="photo-container">
+					<div class="photo">
 						<img src="./images/thumb/thumbnail_8.jpg" alt="Tom Collins">
-						<div>
-							<h3>Click to Enlarge</h3>
+						<div class="photo-overlay">
+							<h3 class="white-head">Click to Enlarge</h3>
 							<p>We have tastings & classes available 7 days a week! Book with us today!</p>
 						</div>
 					</div>
 				</div>
 				<!-- END PHOTO CONTAINER 8-->
 				<!-- PHOTO CONTAINER 9 -->
-				<div>
-					<div>
+				<div class="photo-container">
+					<div class="photo">
 						<img src="./images/thumb/thumbnail_9.jpg" alt="Bellini">
-						<div>
-							<h3>Click to Enlarge</h3>
+						<div class="photo-overlay">
+							<h3 class="white-head">Click to Enlarge</h3>
 							<p>We have tastings & classes available 7 days a week! Book with us today!</p>
 						</div>
 					</div>
@@ -139,30 +141,30 @@
 	<!-- END RECIPES-->
 	
 	<!--RSVP-->
-	<section>
-		<div id="contact">
-			<div>
-				<h1>Reservations</h1>
-				<div>
+	<section id="contact">
+		<div class="container">
+			<div class="heading-padding">
+				<h1 class="heading-padding">Reservations</h1>
+				<div class="reservation">
 					<h2><span>Your fun has just begun.</span>
 						<br />Reserve your class today!
 					</h2>
-					<p>
+					<p class="rsvp-text">
 						Please provide us with some basic info:
 					</p>
-					<div>
+					<div class="form-rsvp">
 						<form action="" method="post">
 							<input class="rsvp" type="text" value="First Name">
 							<input class="rsvp" type="text" value="Last Name">
 							<input class="rsvp" type="text" value="Email">
 							<input class="rsvp" type="text" value="Phone Number">
+							</form>
 							<div class="form-spacer">
 								<label class="terms">Terms and Conditions</label>
 							</div>
-							<div>
+							<div class="submit">
 								<input type="submit" value="Submit">
 							</div>
-						</form>
 					</div>
 				</div>
 			</div>
@@ -171,7 +173,7 @@
 	<!--END RSVP-->
 	
 	<!--FOOTER-->
-	<div>
+	<div id="footer">
 		www.cocktailcorner.com &nbsp;|&nbsp; &copy; 2022
 	</div>
 	<!--END FOOTER-->

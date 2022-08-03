@@ -1,0 +1,33 @@
+/* MENU SELECTION ANIMATION */
+
+.menu{
+    color: rgb(226, 167, 255);
+    font: bold 12px/18px courier;
+    display: inline;
+    margin: 0% auto;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu li{
+    color: rgb(61, 0, 123);
+    background-color: rgb(255, 188, 243);
+    display: inline-block;
+    margin: 0% auto;
+    position: relative;
+    padding: 15px 4%;
+    border: 1 px solid rgb(170, 86, 249);
+    box-shadow: 2px 2px 10px 0 rgba(41, 0, 63, 0.5);
+    border-radius: 6px;
+    cursor: pointer;
+    transition-property: background;
+    transition-duration: .5s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out;
+}
+
+.menu li:hover{
+    color:rgb(170, 86, 249);
+    background-color: rgb(61, 0, 123);
+}
