@@ -1,0 +1,124 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 50%;
+    border-radius: 30px;
+    filter: opacity(80%);
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .6s ease;
+    background-color: darkslategrey;
+}
+
+.text{
+    color:black;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.center:hover .overlay{
+opacity: 1;
+}
+
+body{
+    background-color: lightblue;
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
+}
+
+table {
+    margin-top: 30px;
+}
+
+table, th, td {
+    border: 2px solid lightseagreen;
+    padding: 5px;
+}
+
+th {
+background-color: cadetblue;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    color:cornflowerblue;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* nav bar */
+
+.navbar {
+    overflow: hidden;
+    background-color: cornflowerblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.navbar a{
+    float:left;
+    display: block;
+    color:darkslateblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: wavy;
+}
+
+.navbar a:hover{
+    background: rgb(32, 22, 143);
+    color:antiquewhite;
+}
+
+.hov:hover {
+background-color: darkslateblue;
+color: antiquewhite;
+}
+
+/*COLUMN*/
+
+.column{
+    float:left;
+    width: 50%;
+    color: blueviolet;
+    background-color: lightcyan;
+}
+
+.row {
+    height: 50px;
+    width: 600px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
